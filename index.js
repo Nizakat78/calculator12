@@ -2,11 +2,11 @@
 // This is called "SHEBANKING"
 import inquirer from "inquirer";
 const calculator = await inquirer.prompt([
-    { message: "Enter the First Number",
+    { message: "Enter Your First Number",   // Number add in this file 
         type: "number",
         name: "num1" },
     {
-        message: "Enter the Second Number",
+        message: "Enter Your Second Number",
         type: "number",
         name: "num2"
     },
